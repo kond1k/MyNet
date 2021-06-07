@@ -1,0 +1,14 @@
+all:
+  vars:
+    username: admin
+    password: admin
+    device_type: cisco_ios
+  groups:
+    main:
+      hosts:
+        - hostname: CE1
+          host: 192.168.100.201
+        - hostname: CR1
+          host: 192.168.100.202
+        - hostname: BR1
+          host: 192.168.100.203
